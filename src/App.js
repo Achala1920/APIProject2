@@ -16,7 +16,7 @@ const App = () => {
 
     try {
       const response = await axios.post(
-        'https://dzqi68u588.execute-api.us-east-1.amazonaws.com/dev/generate-blog',
+        'https://pmeun25ruf.execute-api.us-east-1.amazonaws.com/dev/generate-blog',
         { prompt }
       );
       setBlogData(response.data);
